@@ -41,6 +41,7 @@ store.register_lints(&[
     as_underscore::AS_UNDERSCORE,
     asm_syntax::INLINE_ASM_X86_ATT_SYNTAX,
     asm_syntax::INLINE_ASM_X86_INTEL_SYNTAX,
+    assert_ok::ASSERT_OK,
     assertions_on_constants::ASSERTIONS_ON_CONSTANTS,
     async_yields_async::ASYNC_YIELDS_ASYNC,
     attrs::ALLOW_ATTRIBUTES_WITHOUT_REASON,

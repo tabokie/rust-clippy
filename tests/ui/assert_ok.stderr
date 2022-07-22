@@ -1,0 +1,10 @@
+error: `assert!(r.is_ok())` gives bad error message
+  --> $DIR/assert_ok.rs:7:5
+   |
+LL |     assert!(r.is_ok());
+   |     ^^^^^^^^^^^^^^^^^^ help: replace with: `r.unwrap()`
+   |
+   = note: `-D clippy::assert-ok` implied by `-D warnings`
+
+error: aborting due to previous error
+

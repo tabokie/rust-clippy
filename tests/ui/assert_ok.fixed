@@ -1,0 +1,8 @@
+// run-rustfix
+#![warn(clippy::assert_ok)]
+
+fn main() {
+    // basic case
+    let r: std::result::Result<(), ()> = Ok(());
+    r.unwrap();
+}
